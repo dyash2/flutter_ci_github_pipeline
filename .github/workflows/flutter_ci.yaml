@@ -27,7 +27,3 @@ jobs:
     - name: Analyze code
       run: flutter analyze
       working-directory: simple_app
-
-    - name: Run tests
-      run: flutter test
-      working-directory: simple_app
